@@ -23,8 +23,8 @@ export class ListagemFilmesComponent implements OnInit {
   generos: Array<string>;
 
   constructor(private filmesService: FilmesService,
-              private fb: FormBuilder,
-              private router: Router) { }
+    private fb: FormBuilder,
+    private router: Router) { }
 
   ngOnInit(): void {
     this.filtrosListagem = this.fb.group({
@@ -33,14 +33,14 @@ export class ListagemFilmesComponent implements OnInit {
     });
 
     this.filtrosListagem.get('texto').valueChanges
-    .pipe(debounceTime(400))
-    .subscribe((val: string) => {
-      this.config.pesquisa = val;
-      this.resetarConsulta();
-    });
+      .pipe(debounceTime(400))
+      .subscribe((val: string) => {
+        this.config.pesquisa = val;
+        this.resetarConsulta();
+      });
 
     this.filtrosListagem.get('genero').valueChanges.subscribe((val: string) => {
-      this.config.campo = {tipo: 'genero', valor: val};
+      this.config.campo = { tipo: 'genero', valor: val };
       this.resetarConsulta();
     });
 
