@@ -1,5 +1,5 @@
 # Gerenciador de Filmes
-Uma aplicação criada com o objetivo de gerenciar filmes, usando Angular 11
+Uma aplicação criada com o objetivo de gerenciar filmes, usando Angular 8+
 
 Tecnologias:
 - Angular (Rotas/Material/RxJS)
