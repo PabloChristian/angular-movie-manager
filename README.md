@@ -6,7 +6,7 @@ O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edi�
 
 ## Instalação
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
+1. clone o repositório `git clone git@github.com:PabloChristian/gerenciador-filmes.git`
 2. Entre no projeto e instale as dependencias `npm install`
 
 ## Ambiente Local
