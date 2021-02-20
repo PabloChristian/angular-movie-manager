@@ -1,12 +1,17 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Gerenciador de Filmes
+Uma aplicação criada com o objetivo de gerenciar filmes, usando Angular 8+
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
-
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
+Tecnologias:
+- Angular (Rotas/Material/RxJS)
+- Javascript
+- NodeJS
+- TypeScript
+- CSS
+- HTML
 
 ## Instalação
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
+1. clone o repositório `git clone git@github.com:PabloChristian/gerenciador-filmes.git`
 2. Entre no projeto e instale as dependencias `npm install`
 
 ## Ambiente Local
