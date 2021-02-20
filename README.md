@@ -1,5 +1,5 @@
-# Gerenciador de Cursos
-Uma aplicação criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
+# Gerenciador de Filmes
+Uma aplicação criada com o objetivo de gerenciar filmes, usando Angular 11
 
 Tecnologias:
 - Angular (Rotas/Material/RxJS)
