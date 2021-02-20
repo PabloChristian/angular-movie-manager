@@ -1,8 +1,13 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Gerenciador de Cursos
+Uma aplicação criada com o objetivo de gerenciar cursos, usando Angular versão 11.2.0
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
-
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
+Tecnologias:
+- Angular (Rotas/Material/RxJS)
+- Javascript
+- NodeJS
+- TypeScript
+- CSS
+- HTML
 
 ## Instalação
 
