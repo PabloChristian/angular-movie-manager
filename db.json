@@ -109,6 +109,26 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
+    },
+    {
+      "titulo": "O Falcão e o Soldado Invernal",
+      "urlFoto": "https://lumiere-a.akamaihd.net/v1/images/p_thefalconandthewintersoldier_disneyplus_20653-1_a0638b8c.jpeg",
+      "dtLancamento": "2021-03-19T03:00:00.000Z",
+      "descricao": "Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.",
+      "nota": 9,
+      "urlIMDb": "https://www.imdb.com/title/tt9208876/?ref_=nv_sr_srsg_0",
+      "genero": "Ação",
+      "id": 12
+    },
+    {
+      "titulo": "Viúva Negra",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMzFiODE0ZDUtN2IxNC00OTI5LTg4OWItZTE2MjU4ZTk2NjM5XkEyXkFqcGdeQXVyNDYzODU1ODM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2021-05-07T03:00:00.000Z",
+      "descricao": "Em Viúva Negra, após seu nascimento, Natasha Romanoff (Scarlett Johansson) é dada à KGB, que a prepara para se tornar sua agente definitiva. Quando a URSS rompe, o governo tenta matá-la enquanto a ação se move para a atual Nova York, onde ela trabalha como freelancer.",
+      "nota": 9,
+      "urlIMDb": "https://www.imdb.com/title/tt3480822/?ref_=tt_mv_close",
+      "genero": "Ação",
+      "id": 13
     }
   ]
 }

@@ -20,11 +20,11 @@ export class CadastroFilmesComponent implements OnInit {
   generos: Array<string>;
 
   constructor(public validacao: ValidarCamposService,
-              public dialog: MatDialog,
-              private fb: FormBuilder,
-              private filmeService: FilmesService,
-              private router: Router,
-              private activatedRoute: ActivatedRoute) { }
+    public dialog: MatDialog,
+    private fb: FormBuilder,
+    private filmeService: FilmesService,
+    private router: Router,
+    private activatedRoute: ActivatedRoute) { }
 
   get f() {
     return this.cadastro.controls;
@@ -106,17 +106,17 @@ export class CadastroFilmesComponent implements OnInit {
         }
       });
     },
-    () => {
-      const config = {
-        data: {
-          titulo: 'Erro ao salvar o registro!',
-          descricao: 'Não conseguimos salvar seu registro, favor tentar novamente mais tarde',
-          corBtnSucesso: 'warn',
-          btnSucesso: 'Fechar'
-        } as Alerta
-      };
-      this.dialog.open(AlertaComponent, config);
-    });
+      () => {
+        const config = {
+          data: {
+            titulo: 'Erro ao salvar o registro!',
+            descricao: 'Não conseguimos salvar seu registro, favor tentar novamente mais tarde',
+            corBtnSucesso: 'warn',
+            btnSucesso: 'Fechar'
+          } as Alerta
+        };
+        this.dialog.open(AlertaComponent, config);
+      });
   }
 
   private editar(filme: Filme): void {
@@ -130,17 +130,17 @@ export class CadastroFilmesComponent implements OnInit {
       const dialogRef = this.dialog.open(AlertaComponent, config);
       dialogRef.afterClosed().subscribe(() => this.router.navigateByUrl('filmes'));
     },
-    () => {
-      const config = {
-        data: {
-          titulo: 'Erro ao editar o registro!',
-          descricao: 'Não conseguimos editar seu registro, favor tentar novamente mais tarde',
-          corBtnSucesso: 'warn',
-          btnSucesso: 'Fechar'
-        } as Alerta
-      };
-      this.dialog.open(AlertaComponent, config);
-    });
+      () => {
+        const config = {
+          data: {
+            titulo: 'Erro ao editar o registro!',
+            descricao: 'Não conseguimos editar seu registro, favor tentar novamente mais tarde',
+            corBtnSucesso: 'warn',
+            btnSucesso: 'Fechar'
+          } as Alerta
+        };
+        this.dialog.open(AlertaComponent, config);
+      });
   }
 
 }

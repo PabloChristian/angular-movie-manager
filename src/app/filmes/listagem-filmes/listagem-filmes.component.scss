@@ -1,12 +1,14 @@
 .home-content {
   display: flex;
   flex-wrap: wrap;
-  width: calc(100% - 20px);
-  justify-content: space-between;
+  width: calc(100% - 10px);
+  justify-content: left;
   padding: 10px;
   .home-card {
     margin-bottom: 10px;
-
+    margin-left: 10px;
+    border-style: solid;
+    border-color: black;
   }
 }
 
