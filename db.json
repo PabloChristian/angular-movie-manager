@@ -1,26 +1,6 @@
 {
   "filmes": [
     {
-      "id": 1,
-      "titulo": "MIB: Homens de Preto",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "1997-07-11T03:00:00.000Z",
-      "descricao": "A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.",
-      "nota": 7.3,
-      "urlIMDb": "https://www.imdb.com/title/tt0119654/",
-      "genero": "Ação"
-    },
-    {
-      "id": 2,
-      "titulo": "MIB: Homens de Preto II ",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTMxNDA0NTMxMV5BMl5BanBnXkFtZTYwMDE2NzY2._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2012-07-19T03:00:00.000Z",
-      "descricao": "Agent J is sent to find Agent K and restore his memory after the re-appearance of a case from K's past.",
-      "nota": 6.2,
-      "urlIMDb": "https://www.imdb.com/title/tt0120912",
-      "genero": "Ação"
-    },
-    {
       "id": 3,
       "titulo": "MIB: Homens de Preto III",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTU2NTYxODcwMF5BMl5BanBnXkFtZTcwNDk1NDY0Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -104,7 +84,7 @@
       "titulo": "Star Wars: A Ascensão Skywalker",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
       "dtLancamento": "2019-12-19T03:00:00.000Z",
-      "descricao": "In Theaters Now\nAfter Palpatine mysteriously returns, the Resistance faces the First Order once more in the final chapter of the Skywalker saga.",
+      "descricao": "After Palpatine mysteriously returns, the Resistance faces the First Order once more in the final chapter of the Skywalker saga.",
       "nota": 6.9,
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
@@ -129,6 +109,16 @@
       "urlIMDb": "https://www.imdb.com/title/tt3480822/?ref_=tt_mv_close",
       "genero": "Ação",
       "id": 13
+    },
+    {
+      "titulo": "It - Capítulo 2",
+      "urlFoto": "http://br.web.img2.acsta.net/pictures/19/08/14/16/00/5320567.jpg",
+      "dtLancamento": "2019-10-01T03:00:00.000Z",
+      "descricao": "Twenty-seven years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back.",
+      "nota": 7,
+      "urlIMDb": "https://www.imdb.com/title/tt7349950/?ref_=fn_al_tt_1",
+      "genero": "Terror",
+      "id": 14
     }
   ]
 }

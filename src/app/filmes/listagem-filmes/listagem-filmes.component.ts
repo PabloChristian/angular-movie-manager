@@ -40,11 +40,16 @@ export class ListagemFilmesComponent implements OnInit {
       });
 
     this.filtrosListagem.get('genero').valueChanges.subscribe((val: string) => {
-      this.config.campo = { tipo: 'genero', valor: val };
+      if(val != '')
+      {
+        this.config.campo = { tipo: 'genero', valor: val };
+      }
+      else
+        this.config.campo = null;
       this.resetarConsulta();
     });
 
-    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
+    this.generos = ['','Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
 
     this.listarFilmes();
   }

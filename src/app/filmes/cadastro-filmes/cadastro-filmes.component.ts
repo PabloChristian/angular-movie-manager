@@ -38,9 +38,7 @@ export class CadastroFilmesComponent implements OnInit {
     } else {
       this.criarFormulario(this.criarFilmeEmBranco());
     }
-
     this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
-
   }
 
   submit(): void {
@@ -56,6 +54,10 @@ export class CadastroFilmesComponent implements OnInit {
     } else {
       this.salvar(filme);
     }
+  }
+
+  voltar(): void {
+    this.router.navigateByUrl('filmes');
   }
 
   reiniciarForm(): void {

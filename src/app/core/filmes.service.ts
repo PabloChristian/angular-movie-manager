@@ -13,7 +13,7 @@ const url = 'http://localhost:3000/filmes/';
 export class FilmesService {
 
   constructor(private http: HttpClient,
-              private configService: ConfigParamsService) { }
+    private configService: ConfigParamsService) { }
 
   salvar(filme: Filme): Observable<Filme> {
     return this.http.post<Filme>(url, filme);
