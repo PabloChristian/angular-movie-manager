@@ -3,7 +3,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Alerta } from '../../models/alerta';
 
 @Component({
-  selector: 'dio-alerta',
+  selector: 'app-alerta',
   templateUrl: './alerta.component.html',
   styleUrls: ['./alerta.component.css']
 })

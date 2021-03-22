@@ -1,7 +1,24 @@
-# Gerenciador de Filmes
-Uma aplicação criada com o objetivo de gerenciar filmes, usando Angular 8+
+## Gerenciador de Filmes
+Uma aplicação CRUD criada com o objetivo de gerenciar filmes, usando Angular 8+
 
-Tecnologias:
+## Imagens
+
+- Listagem de Filmes
+<img src="docs/prints/print1.png">
+
+- Visualização do Filme
+<img src="docs/prints/print2.png">
+
+- Edição do Filme
+<img src="docs/prints/print3.png">
+
+- Menu Lateral
+<img src="docs/prints/print4.png">
+
+- Cadastro de Filme
+<img src="docs/prints/print5.png">
+
+## Tecnologias
 - Angular (Rotas/Material/RxJS)
 - Javascript
 - NodeJS
@@ -24,9 +41,5 @@ Execute `npm install -g json-server` para instalar globalmente o servidor json. 
 
 ## Gerando componente
 
-Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
+Digite `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
