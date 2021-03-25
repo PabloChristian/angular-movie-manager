@@ -1,6 +1,14 @@
 ## Gerenciador de Filmes
 Uma aplicação CRUD criada com o objetivo de gerenciar filmes, usando Angular 8+
 
+## Tecnologias
+- Angular (Rotas/Material/RxJS)
+- Javascript
+- NodeJS
+- TypeScript
+- CSS
+- HTML
+
 ## Imagens
 
 - Listagem de Filmes
@@ -17,14 +25,6 @@ Uma aplicação CRUD criada com o objetivo de gerenciar filmes, usando Angular 8
 
 - Cadastro de Filme
 <img src="docs/prints/print5.png">
-
-## Tecnologias
-- Angular (Rotas/Material/RxJS)
-- Javascript
-- NodeJS
-- TypeScript
-- CSS
-- HTML
 
 ## Instalação
 
